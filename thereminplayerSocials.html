@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxio's socials</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+      <h1>Boxio's socials</h1>
+        <p>You can get back to the main page <a href="https://ethan-master-coding.github.io/Boxio-website/" target="_blank">here</a>.</p>
+        <div class="grid">
+
+            <div class="YT">
+              <h2>Boxio's Youtube</h2>
+                <p>Place holder until he make a trailer.</p>
+            </div>
+            <div class="twitch">
+              <h2>Boxio's Twitch</h2>
+                <div id="twitch-embed"></div>
+                <!-- Load the Twitch embed script -->
+                <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+                
+                <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+                <script type="text/javascript">
+                  new Twitch.Player("twitch-embed", {
+                    channel: "thereminplayer"
+                  });
+                </script>
+            </div>
+            <div class="twitter">
+                <h2>Boxio's Twitter</h2>
+                  <p>Here you can view Boxio's <a href="https://twitter.com/ThereminPlayer" target="_blank">Twitter</a></p>
+            </div>
+        </div>
+  </body>
+</html>
