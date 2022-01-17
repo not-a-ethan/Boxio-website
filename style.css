@@ -1,0 +1,23 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+.grid {
+    display: grid;
+}
+
+.YT {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.twitch {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.twitter {
+    grid-column: 1;
+    grid-row: 2;
+}
