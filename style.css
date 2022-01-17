@@ -2,7 +2,7 @@
     color: white;
     background-color: black;
     text-align: center;
-    background: url("https://cdn.discordapp.com/attachments/901606671229534208/932698467044839434/Background-Red-Theremin-GIF.gif")
+    background-color: black;
 }
 
 .grid {
@@ -22,4 +22,8 @@
 .twitter {
     grid-column: 1;
     grid-row: 2;
+}
+
+.gif {
+    grid-column: 3;
 }
