@@ -23,10 +23,21 @@
     grid-row: 2;
 }
 
-.gif {
-    grid-column: 3;
-}
-
 img {
     max-width: 500px;
 }
+
+.one {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  
+  .two {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
+  .three {
+    grid-column: 3;
+    grid-row: 3;
+  }
