@@ -25,5 +25,6 @@
 
 .gif {
     grid-column: 3;
+    grid-row: auto;
     max-width: 10%;
 }
