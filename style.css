@@ -25,5 +25,8 @@
 
 .gif {
     grid-column: 3;
+}
+
+img {
     max-width: 500px;
 }
