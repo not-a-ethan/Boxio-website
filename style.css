@@ -41,3 +41,8 @@ img {
     grid-column: 3;
     grid-row: 3;
   }
+
+.gif {
+    grid-column: 3;
+    grid-row: auto;
+}
